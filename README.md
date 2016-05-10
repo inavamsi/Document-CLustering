@@ -1,3 +1,13 @@
+To view the ipython notebook
+
+```
+virtualenv venv
+source venv/bin/activate
+pip install -r requirements.txt
+ipython2 notebook
+```
+
+
 Document Clustering with Python
 ================
 
@@ -21,6 +31,6 @@ The 'cluster_analysis' workbook is fully functional; the 'cluster_analysis_web' 
 
 
 ### How the repo is set up
-Once you've pulled down the repo, all you need to do is run 'cluster_analysis.ipynb'; it will find the various lists of synopses and titles. The 'Film_Scrape.ipynb' contains the code I used to actually scrape the synopses, in case you are interested. The other items in the repo are mostly incidentals for setting up the webpage walk-through. There is also one pickled model. 
+Once you've pulled down the repo, all you need to do is run 'cluster_analysis.ipynb'; it will find the various lists of synopses and titles. The 'Film_Scrape.ipynb' contains the code I used to actually scrape the synopses, in case you are interested. The other items in the repo are mostly incidentals for setting up the webpage walk-through. There is also one pickled model.
 
 At some point in the future I'll write up how I executed the web scraping in case it's of interest.
