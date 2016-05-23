@@ -1,4 +1,4 @@
-To view the ipython notebook
+To view the ipython notebook `pip freeze > requirements.txt`
 
 ```
 virtualenv venv
@@ -6,6 +6,10 @@ source venv/bin/activate
 pip install -r requirements.txt
 ipython2 notebook
 ```
+
+use nltk.download() to download corpora, which is saved at: /Users/harrywang/nltk_data
+
+
 
 
 Document Clustering with Python

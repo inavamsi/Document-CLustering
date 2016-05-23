@@ -64,3 +64,8 @@ app/static/upload/temp
 
 # tmp dictionary
 tmp/
+
+#iPython notebook
+.npy
+.pkl
+.ipynb_checkpoints
