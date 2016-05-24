@@ -13,9 +13,11 @@ ipython2 notebook
 then open the doc_clustering.ipynb or directly view it on Github at https://github.com/harrywang/document_cluster/blob/master/doc_clustering.ipynb
 
 ## TL;DR
-Data: Top 100 movies (http://www.imdb.com/list/ls055592025/) with title, genre, and synopsis (IMDB and Wiki)
+**Data**: Top 100 movies (http://www.imdb.com/list/ls055592025/) with title, genre, and synopsis (IMDB and Wiki)
 
-Goal: Put 100 movies into 5 clusters by text-mining their synopses
+**Goal**: Put 100 movies into 5 clusters by text-mining their synopses and plot the result as follows
+
+<img width="771" alt="screenshot 2016-05-23 20 50 20" src="https://cloud.githubusercontent.com/assets/595772/15488829/5b863710-2128-11e6-843b-25aac76bd134.png">
 
 ## Key Steps
 1. **Read data**: read titles, genres, synopses, rankings into four arrays
