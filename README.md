@@ -11,13 +11,14 @@ This is my revision of the great tutorial at http://brandonrose.org/clustering -
 
 ## Setup
 
-First, setup the virtual environment and install the required packages:
+First, clone the repo, go to the repo folder, setup the virtual environment, and install the required packages:
 
 ```
+git clone https://github.com/harrywang/document_clustering.git
+cd document_clustering
 virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
-ipython2 notebook
 ```
 Second, use nltk.download() to download all nltk packages, which are saved to /Users/harrywang/nltk_data
 
