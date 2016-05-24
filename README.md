@@ -2,7 +2,16 @@
 
 This is my revision of the great tutorial at http://brandonrose.org/clustering - many thanks to the author.
 
-You need to use nltk.download() to download corpora, which is saved at: /Users/harrywang/nltk_data
+## TL;DR
+**Data**: Top 100 movies (http://www.imdb.com/list/ls055592025/) with title, genre, and synopsis (IMDB and Wiki)
+
+**Goal**: Put 100 movies into 5 clusters by text-mining their synopses and plot the result as follows
+
+<img width="771" alt="screenshot 2016-05-23 20 50 20" src="https://cloud.githubusercontent.com/assets/595772/15488829/5b863710-2128-11e6-843b-25aac76bd134.png">
+
+## Setup
+
+First, setup the virtual environment and install the required packages:
 
 ```
 virtualenv venv
@@ -10,14 +19,15 @@ source venv/bin/activate
 pip install -r requirements.txt
 ipython2 notebook
 ```
-then open the doc_clustering.ipynb or directly view it on Github at https://github.com/harrywang/document_cluster/blob/master/doc_clustering.ipynb
+Second, use nltk.download() to download all nltk packages, which are saved to /Users/harrywang/nltk_data
 
-## TL;DR
-**Data**: Top 100 movies (http://www.imdb.com/list/ls055592025/) with title, genre, and synopsis (IMDB and Wiki)
+```
+ipython2
+import nltk
+nltk.download()
+```
 
-**Goal**: Put 100 movies into 5 clusters by text-mining their synopses and plot the result as follows
-
-<img width="771" alt="screenshot 2016-05-23 20 50 20" src="https://cloud.githubusercontent.com/assets/595772/15488829/5b863710-2128-11e6-843b-25aac76bd134.png">
+Lastly, view doc_clustering.ipynb directly on Github at https://github.com/harrywang/document_cluster/blob/master/doc_clustering.ipynb or locally by running `ipython2 notebook` to learn the tutorial step-by-step.
 
 ## Key Steps
 1. **Read data**: read titles, genres, synopses, rankings into four arrays
